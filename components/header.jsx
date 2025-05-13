@@ -3,12 +3,12 @@ const Header = () => {
   return (
     <div>
        <SignedOut>
-              <SignInButton />
-              <SignUpButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+          <SignInButton />
+          <SignUpButton />
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
     </div>
   )
 }
