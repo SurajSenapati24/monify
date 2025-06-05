@@ -4,13 +4,10 @@ import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 
 const inter=Inter({subsets:["latin"]});
-
-
 export const metadata = {
   title: "MoniFy",
   description: "Your daily AI-based Expense Tracker",
 };
-
 export default function RootLayout({ children }) {
   return (
   <ClerkProvider>
